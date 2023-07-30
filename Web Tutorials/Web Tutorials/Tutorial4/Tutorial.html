@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+#img {
+    background-size: cover;
+  padding: 225px;
+
+  background: url(img5.jpeg);
+ background-size: cover;
+
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 10px;
+
+
+}
+
+.image {
+    overflow: hidden; 
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    margin-right: 50%;
+    margin-bottom: 20%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+   
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div id="img">
+
+</div>
+<h1 style="text-align: center;color: mediumblue;">Product List</h1>
+<p>Electronics</p>
+<div class="gallery">
+    <div class="image">
+
+        <img src="img2.jpg" alt="Image 1">
+    </div>
+    <div class="image">
+        <img src="img2.jpg" alt="Image 2">
+    </div>
+    <div class="image">
+        <img src="img2.jpg" alt="Image 3">
+    </div>
+    <div class="image">
+        <img src="img2.jpg" alt="Image 4">
+    </div>
+    </div>
+    <p>Foods</p>
+    <div class="gallery">
+        <div class="image">
+    
+            <img src="img2.jpg" alt="Image 5">
+        </div>
+        <div class="image">
+            <img src="img2.jpg" alt="Image 6">
+        </div>
+        <div class="image">
+            <img src="img2.jpg" alt="Image 7">
+        </div>
+        <div class="image">
+            <img src="img2.jpg" alt="Image 8">
+        </div>
+        </div>
+        <p>Clothes</p>
+        <div class="gallery">
+            <div class="image">
+        
+                <img src="img2.jpg" alt="Image 9">
+            </div>
+            <div class="image">
+                <img src="img2.jpg" alt="Image 10">
+            </div>
+            <div class="image">
+                <img src="img2.jpg" alt="Image 11">
+            </div>
+            <div class="image">
+                <img src="img2.jpg" alt="Image 12">
+            </div>
+            </div>
+
+            
+    
+
+</body>
+</html>
+
+

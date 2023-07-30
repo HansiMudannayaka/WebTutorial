@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment</title>
+  </head>
+  <body>
+    <style>
+      div.box {
+        margin: auto;
+        width: 40%;
+        padding: 10px;
+        padding: 30px;
+        background-color: rgb(26, 29, 28);
+      }
+
+      h1 {
+        background-color: chocolate;
+        color: aliceblue;
+      }
+
+      td {
+        color: rgb(246, 161, 5);
+      }
+    </style>
+    
+    <div class="box">
+      <center>
+        <h1>Sign Up</h1>
+        <form name="g" method="post" action="new.php">
+          <table border="0">
+            <tr height="50">
+              <td width="200">First Name:</td>
+              <td>
+                <input type="text" name="un" placeholder="Enter First Name ">
+              </td>
+            </tr>
+            <tr height="50">
+              <td width="200">Last Name:</td>
+              <td>
+                <input type="text" name="un" placeholder="Enter Last Name">
+              </td>
+            </tr>
+            <tr height="50">
+              <td width="200">Date Of Birth:</td>
+              <td>
+                <input type="date" name="un" placeholder="">
+              </td>
+            </tr>
+            <tr height="50">
+              <td>Gender:</td>
+              <td width="200">
+                <input type="radio" name="gen" value="m">Male <input type="radio" name="gen" value="f">Female
+              </td>
+            </tr>
+            <tr height="50">
+              <td width="200">Country</td>
+              <td>
+                <select name="c">
+                  <option value="s">country</option>
+                  <option value="sri">Sri Lanka</option>
+                  <option value="u">UK</option>
+              </td>
+              </select>
+            </tr>
+            <tr height="50">
+              <td width="200">Email:</td>
+              <td>
+                <input type="text" name="un" placeholder="Enter Email">
+              </td>
+            </tr>
+            <tr height="50">
+              <td width="200">Phone:</td>
+              <td>
+                <input type="text" name="un" placeholder="Enter Phone">
+              </td>
+            </tr>
+            <tr height="50">
+              <td width="200">Password:</td>
+              <td>
+                <input type="password" name="un" placeholder="">
+              </td>
+            </tr>
+            <tr height="50">
+              <td width="200">Conform Password:</td>
+              <td>
+                <input type="password" name="un" placeholder="">
+              </td>
+            </tr>
+        </form>
+        </table>
+        <div style="margin: 10px;text-align: right;color: rgb(234, 189, 12);">
+          <input type="checkbox" name="agree" value="1">I agree to the terms of use
+        </div>
+      </center>
+      <div style="background-color: chocolate;height: 60px;">
+        <button style="background-color: rgb(7, 210, 88);width: 20%;height: 40px;padding: 4px;border: none;margin: 10px;">submit</button>
+        <button style="background-color: rgb(233, 41, 121);width: 20%;height: 40px;padding: 4px;border: none;margin: 10px;">cansel</button>
+      </div>
+    </div>
+  </body>
+</html>
